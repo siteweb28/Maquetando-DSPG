@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+    color: rgb(29, 119, 209);
+}
+
+.contenedor {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    min-width: 350px;
+    margin: 20px auto;
+    background: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+    background-size: cover;
+}
+
+header .encabezado {
+    line-height: 12px;
+}
+
+header .menu a {
+    color: rgb(29, 119, 209);
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+    padding: 10px;
+    background: rgb(232, 90, 38);
+    color: #fff;
+}
+
+.main {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.main .imagen img {
+    width: 100%;
+    min-height: 468px;
+    position: relative;
+    vertical-align: top;
+
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.items {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(29, 119, 209, 0.5);
+}
+
+.items .lorem {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.items .lorem i {
+    margin-right: 10px;
+    color: rgb(232, 90, 38);
+}
+
+.naranja {
+    padding: 10px;
+    color: #fff;
+    background: rgb(232, 90, 38);
+
+}
+
+.naranja p {
+    font-size: 18px;
+    align-items: center;
+}
+
+.subtitulo2 {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    text-align: left;
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+.subtitulo2 div {
+    text-align: right;
+}
+
+.subtitulo2 span {
+    color: rgb(232, 90, 38);
+}
+
+.subtitulo2 .inscripcion {
+    font-size: 25px;
+}
+
+.subtitulo2 .borde {
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(29, 119, 209);
+}
+
+aside {
+    width: 30%;
+}
+
+.formulario {
+    width: 100%;
+}
+
+.formulario .contenedor1 {
+    background: rgb(29, 119, 209);
+    min-height: 468px;
+    text-align: center;
+}
+
+.formulario .contenedor1 input {
+    display: flex;
+    width: 90%;
+    padding: 5px 15px;
+    margin: 10px 20px;
+    text-align: left;
+    outline: none;
+}
+
+.formulario .contenedor1 h3 {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 20px 0 10px 0;
+    align-items: center;
+    border-bottom: 2px solid rgb(114, 164, 214);
+}
+
+.formulario .contenedor1 h3 span {
+    color: rgb(232, 90, 38);
+}
+
+.formulario .contenedor1 .boton {
+    color: #fff;
+    font-weight: 500;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: 30px auto;
+    padding: 15px;
+    border: none;
+    background: rgb(232, 90, 38);
+}
+
+.main2 {
+    width: 100%;
+}
+
+.main2 .centro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    background-color: rgba(210, 207, 207, 0.848);
+    height: 200px;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(29, 119, 209);
+}
+
+.main2 .centro .birrete {
+    width: 100px;
+    height: 100px;
+}
+
+.main2 .centro .texto {
+    margin-left: 50px;
+}
+
+.contenido1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    margin: 40px 30px;
+
+}
+
+.contenido1 .text {
+    font-size: 16px;
+    color: rgb(136, 133, 133);
+}
+
+.contenido1 .parrafo {
+    border: 1px solid rgb(169, 166, 166);
+    padding: 20px 0 20px 20px;
+}
+
+.contenido1 .parrafo h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contenido1 .parrafo .rojo {
+    color: red;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contacto .color {
+    width: 40%;
+    background-color: rgb(29, 119, 209);
+    color: aliceblue;
+    padding: 40px;
+    flex-grow: 2;
+    font-weight: bold;
+}
+
+
+
+ .redes_sociales {
+    background: rgb(232, 90, 38);
+    padding: 30px 0;
+    width: 60%;
+}
+ .redes_sociales .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(232, 90, 38);
+}
+
+ .redes_sociales a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 0 20px;
+
+}
+
+ .redes_sociales .twitter:hover {
+    background: #1DA1F2;
+}
+
+ .redes_sociales .facebook:hover {
+    background: #1877F2;
+}
+
+ .redes_sociales .youtube:hover {
+    background: #FF0000;
+}
+
+.redes_sociales .github:hover {
+    background: #333333;
+}
+
+ .redes_sociales .instagram:hover {
+    background: #E1306C;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(73, 71, 71);
+    color: aliceblue;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:850px) {
+    .main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .formulario .contenedor1 .boton {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .encabezado h2 {
+        justify-items: center;
+        margin: 20px;
+    }
+
+    header .menu {
+        width: 100%;
+        background: rgba(29, 119, 209, 0.5);
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    header .menu a {
+        margin: 0 20px;
+    }
+
+    .contenido1 {
+        grid-template-columns: auto auto
+    }
+    .contacto {
+        flex-direction: column;
+    }
+
+    .contacto .color {
+        width: 100%;
+    }
+
+    .redes_sociales {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .contenido1 {
+        grid-template-columns: auto
+    }
+
+    .main2 .centro {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .main2 .centro .birrete {
+        margin-top: 20px;
+    }
+
+    .main2 .centro .texto {
+        margin: 20px;
+    }
+
+
+    .items {
+        padding: 20px;
+    }
+
+    .redes_sociales .contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+}
